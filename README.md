@@ -1,1 +1,111 @@
 # shanego.github
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Your Company Name]</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="[Your Company Name] Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#dogs">Dogs</a></li>
+        <li><a href="#cats">Cats</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <div class="actions">
+      <a href="#login" class="btn">Login</a>
+      <a href="#signup" class="btn primary">Sign Up</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Healthy Food for Happy Pets</h1>
+      <p>At [Your Company Name], we provide nutritious, natural pet food to keep your dogs and cats strong, happy, and full of life.</p>
+      <a href="#shop" class="btn primary">Shop Now</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/hero.jpg" alt="Happy pets">
+    </div>
+  </section>
+
+  <!-- DOG FOOD -->
+  <section id="dogs" class="dog-food">
+    <h2>Explore Our Dog Food</h2>
+    <div class="dog-food-grid">
+      <div class="food-card">
+        <img src="images/puppy-food.jpg" alt="Puppy Food">
+        <p>Puppy</p>
+      </div>
+      <div class="food-card">
+        <img src="images/adult-dog.jpg" alt="Adult Dog Food">
+        <p>Adult</p>
+      </div>
+      <div class="food-card">
+        <img src="images/senior-dog.jpg" alt="Senior Dog Food">
+        <p>Senior</p>
+      </div>
+      <div class="food-card">
+        <img src="images/dry-dog.jpg" alt="Dry Dog Food">
+        <p>Dry Food</p>
+      </div>
+      <div class="food-card">
+        <img src="images/high-protein.jpg" alt="High Protein Dog Food">
+        <p>High Protein</p>
+      </div>
+      <div class="food-card">
+        <img src="images/natural-support.jpg" alt="Natural Support Food">
+        <p>Natural Support</p>
+      </div>
+    </div>
+    <a href="#shop-dog" class="btn primary">View All Dog Food</a>
+  </section>
+
+  <!-- CAT FOOD -->
+  <section id="cats" class="cat-food">
+    <h2>Explore Our Cat Food</h2>
+    <div class="cat-food-grid">
+      <div class="food-card">
+        <img src="images/kitten.jpg" alt="Kitten Food">
+        <p>Kitten</p>
+      </div>
+      <div class="food-card">
+        <img src="images/adult-cat.jpg" alt="Adult Cat Food">
+        <p>Adult</p>
+      </div>
+      <div class="food-card">
+        <img src="images/senior-cat.jpg" alt="Senior Cat Food">
+        <p>Senior</p>
+      </div>
+      <div class="food-card">
+        <img src="images/dry-cat.jpg" alt="Dry Cat Food">
+        <p>Dry Food</p>
+      </div>
+      <div class="food-card">
+        <img src="images/wet-cat.jpg" alt="Wet Cat Food">
+        <p>Wet Food</p>
+      </div>
+      <div class="food-card">
+        <img src="images/hairball-care.jpg" alt="Hairball Care">
+        <p>Hairball Care</p>
+      </div>
+    </div>
+    <a href="#shop-cat" class="btn primary">View All Cat Food</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 [Your Company Name]. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
