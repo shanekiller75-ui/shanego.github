@@ -1,0 +1,142 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: #f8f8f8;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.actions .btn {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #333;
+  text-decoration: none;
+}
+
+.actions .btn.primary {
+  background: #e63946;
+  color: #fff;
+  border: none;
+}
+
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 3rem 5%;
+  background: #fafafa;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  margin-bottom: 1.5rem;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Sections */
+.dog-food, .cat-food {
+  padding: 3rem 5%;
+  text-align: center;
+}
+
+.dog-food {
+  background: #222;
+  color: #fff;
+}
+
+.cat-food {
+  background: #f9f9f9;
+}
+
+.dog-food-grid, .cat-food-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.food-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.food-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+.btn.primary {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #e63946;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .navbar ul {
+    display: none;
+  }
+}
